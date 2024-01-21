@@ -1,0 +1,102 @@
+
+
+li {
+  
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background-color: #ecf0f1;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  
+
+}
+.items1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.repo-details {
+  margin-top: 5px;
+}
+
+.repo-language {
+  margin: 0;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.repo-description {
+  margin: 0;
+  font-size: 0.9em;
+  color: #777;
+}
+.user-profile {
+  text-align: center;
+}
+
+.user-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  margin: 5px 0;
+}
+
+.user-username,
+.user-bio,
+.user-twitter,
+.user-github {
+  margin: 0;
+  color: #555;
+}
+
+
+
+
+li:hover {
+  background-color: #cae5f7;
+  transform: scale(1.02);
+}
+.language-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #fff;
+  background-color:lightblue; /* You can change this color code */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.language-btn:hover {
+  background-color:rgb(27, 143, 182); /* You can change this color code */
+}
+
+li a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-right: 10px;
+  
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+
+.list-group{
+  margin: 40px;
+  padding-left: 20px;
+ flex-grow: 2;
+  gap: 1rem;
+  list-style: none;
+
+
+}
+
+

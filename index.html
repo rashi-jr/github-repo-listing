@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">GitHub Repositories Listings</h2>
+            </div>
+            <div class="card-body">
+                <form id="searchForm">
+                    <div class="form-group">
+                        <label for="username">GitHub Username:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter GitHub Username" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Show Repositories</button>
+                </form>
+                <div id="loader" class="text-center mt-3 mb-3 hidden">Loading...</div>
+               
+
+                  <div class="items1">
+                    <ul id="repositoriesList" class="list-group"> </ul>
+                  </div>
+
+            
+                <div id="paginationControls" class="text-center mt-3 mb-3 hidden">
+                    <button id="prevPage" class="btn btn-secondary" disabled>Previous</button>
+                    <span id="currentPage" class="mx-3">Page 1</span>
+                    <button id="nextPage" class="btn btn-secondary" disabled>Next</button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
